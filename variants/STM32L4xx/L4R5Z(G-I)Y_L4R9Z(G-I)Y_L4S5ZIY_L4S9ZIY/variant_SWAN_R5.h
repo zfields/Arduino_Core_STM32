@@ -180,6 +180,9 @@
 #ifndef USER_BTN
   #define USER_BTN              PC13
 #endif
+#ifndef BUTTON_BUILTIN
+  #define BUTTON_BUILTIN        PC13
+#endif
 
 // Power switch ENABLE and DISCHARGE pins
 #ifndef ENABLE_3V3
